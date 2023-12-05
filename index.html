@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trabalho Final</title>
+
+        <!-- BOOTSTRAP -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/estilo.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="menu">
+                <a class="logo col-2" href="index.html">Trabalho Final</a>
+                <div class="nav_menu">
+                    <a href="#galeria_" class="">Galeria</a>
+                    <a href="#jquery_" class="">Jquery</a>
+                    <a href="#forms_" class="">Forms</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="container galeria_" id="galeria_">
+            <div class="galeria">
+                <div class="titulo_galeria">
+                    <h1>Galeria de imagens</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="assets/img/img1.jpg" alt="" class="img_" id="main-image">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="assets/img/img2.jpeg" alt="" class="img_ bottom-image">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="assets/img/img3.jpg" alt="" class="img_ bottom-image">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="assets/img/img4.jpg" alt="" class="img_ bottom-image">
+                    </div>
+                </div>
+            </div>
+            <div class="jquery_" id="jquery_">
+                <div class="titulo_jquery">
+                    <h1>Explicação o que é Jquery</h1>
+                </div>
+                <div class="container_jquery">
+                    <p>O jQuery simplifica o JavaScript, uma das três linguagens fundamentais da web e responsável por adicionar funcionalidades interativas aos sites. As páginas na web também são estruturadas com o HTML e estilizadas com o CSS.</p>
+                    <p>jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um software de código aberto: seu uso é licenciado pelo Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). Sua principal finalidade é associar-se aos elementos JavaScript em HTMLpara conferir mais dinamismo e usabilidade às páginas na internet.</p>
+                    <p>Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores. Neste artigo, explicaremos com mais detalhes o que é jQuery, suas características, funcionalidades e os motivos pelos quais essa biblioteca se tornou tão famosa. </p>
+                    <h2>Qual sua funcionalidade?</h2>
+                    <p>Quando os desenvolvedores programam com jQuery, eles objetivam adicionar às páginas animações e efeitos visuais que aumentem a interatividade do conteúdo disponibilizado na internet.</p>
+                    <p>Além disso, eles podem simplificar códigos JavaScript, caso existam as funcionalidades na biblioteca, alterar conteúdos, mudar conceitos, estilização da página ou apresentação de elementos.</p>
+                    <p>Com a biblioteca jQuery, também é possível acessar e manipular, de forma simplificada, o DOM (Document Object Model ou Modelo de Objeto de Documento) — mecanismo de interação de arquivos XML, HTML ou XHTML escrito em JavaScript.</p>
+                    <p>Outra grande funcionalidade do jQuery é sua compatibilidade com AJAX (Asynchronous JavaScript And XML), que permite ler dados de um servidor web depois que a página é carregada, atualizar uma página da web sem recarregá-la e enviar dados para um servidor web em segundo plano.</p>
+                </div>
+            </div>
+            <div class="forms_" id="forms_">
+                <div class="titulo_forms">
+                    <h1>Forms com validação</h1>
+                </div>
+                <div class="_forms">
+                    <form action="" class="forms_validacao">
+                        <div class="itens_forms">
+                            <label for="">Nome</label>
+                            <input type="text" placeholder="Ex: Fulano Junior">
+                        </div>
+                        <div class="itens_forms">
+                            <label for="">CPF</label>
+                            <input type="text" id="cpf" placeholder="Ex: (12)34567-8901">
+                        </div>
+                        <div class="itens_forms">
+                            <label for="">Data de Nascimento</label>
+                            <input type="text" placeholder="Ex: 00/00/0000">
+                        </div>
+                        <div class="btn_submit">
+                            <a type="submit" id="data" onkeyup="data(event)" class="submit_btn">Enviar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            Created by: Marcus Moreria
+        </footer>
+
+        <!-- !BOOTSTRAP! -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+        <!-- !JS! -->
+        <script src="assets/js/progam.js"></script>
+
+        <!-- !JQUERY! -->
+        <script src="assets/jquery/jquery.js"></script>
+    </body>
+</html>

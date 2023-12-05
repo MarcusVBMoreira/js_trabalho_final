@@ -1,0 +1,141 @@
+/* !CORES! */
+:root{
+    --Vermelho-cor: #f52c15;
+    --Laranja-cor: #f75739;
+    --Magenta-cor: #fa815c;
+    --MagentaClaro-cor: #fcac80;
+    --Bege-cor: #ffd6a3;
+    --Preto-cor: #000;
+    --Branco-cor: #fff;
+}
+
+/* !FONTS! */
+@font-face {
+    font-family: titulo;
+    src: url(../fonts/Classyvogueregular.ttf);
+}
+@font-face {
+    font-family: corpo;
+    src: url(../fonts/CaviarDreams.ttf);
+    color: #000;
+}
+h1, h2, h3, h4, h5, a{
+    font-family: titulo;
+}
+body, p{
+    font-family: corpo;
+    font-size: 1.1em;
+}
+h1{
+    font-size: 2.5em ;
+}
+.menu a{
+    font-size: 1.3em;
+}
+
+
+/* !HTML! */
+html{
+    scroll-behavior: smooth;
+}
+
+/* !BODY! */
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--Bege-cor);
+}
+
+/* !HEADER! */
+.menu{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: var(--MagentaClaro-cor);
+    justify-content: space-between;
+}
+.nav_menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 35px;
+}
+
+/* !CONTAINER! */
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+}
+.img_{
+    width: 100%;
+    padding: 1%;
+}
+
+/* *GALERIA* */
+.galeria{
+    width: 50%;
+    text-align: center;
+}
+.titulo_galeria{
+    margin: 1.5%;
+}
+
+/* !JQUERY! */
+.jquery_{
+    margin-top: 6%;
+}
+.titulo_jquery{
+    margin-bottom: 2%;
+}
+.container_jquery{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container_jquery h2{
+    font-size: 1.5em;
+}
+
+/* !FORMS! */
+.forms_{
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+.titulo_forms{
+    margin-bottom: 2%;
+}
+.forms_validacao{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.itens_forms{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.btn_submit{
+    background-color: var(--MagentaClaro-cor);
+    width: 25%;
+    padding: 2%;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+.btn_submit:hover{
+    background-color: var(--Vermelho-cor);
+}
+
+/* !FOOTER! */
+footer{
+    background-color: var(--MagentaClaro-cor);
+    padding: 1%;
+}
